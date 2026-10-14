@@ -1,0 +1,9 @@
+FROM eclipse-temurin:11-jdk
+
+WORKDIR /app
+
+COPY webgoat-server/target/webgoat-server-v8.2.0-SNAPSHOT.jar app.jar
+
+EXPOSE 8080
+
+ENTRYPOINT ["java", "-jar", "app.jar","--server.port=8080", "--server.address=0.0.0.0"]
