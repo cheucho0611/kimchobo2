@@ -1,0 +1,1 @@
+{"event_id":"test-0001","event_time":"2026-10-16T16:00:00+09:00","source":"csic","severity":"high","detection_type":"sqli","rule_id":"TEST-001","sanitized_excerpt":"GET /shop?id=[MASKED] OR 1=1","data_origin":"historical_replay"}
